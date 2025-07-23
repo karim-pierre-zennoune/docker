@@ -62,25 +62,26 @@
 
 > Donner un exemple de ligne de commande pour ces actions pour supprimer :
 
-○ Un conteneur spécifique
-`docker rm <id>`
-○ Plusieurs conteneurs
-`docker rm <id1> <id2> <id...>`
-○ Tous les conteneurs arrêtés
-`docker container prune`
-○ Forcer la suppression d'un conteneur actif
-`docker rm --force <id>`
-○ Une image spécifique
-`docker rmi <nom>`
-○ Plusieurs images
-`docker rmi <nom1> <nom2> <nom...>`
-○ Toutes les images inutilisées
-`docker image prune`
-○ Toutes les images non utilisées
-`docker image prune -a`
+- Un conteneur spécifique
+  `docker rm <id>`
+- Plusieurs conteneurs
+  `docker rm <id1> <id2> <id...>`
+- Tous les conteneurs arrêtés
+  `docker container prune`
+- Forcer la suppression d'un conteneur actif
+  `docker rm --force <id>`
+- Une image spécifique
+  `docker rmi <nom>`
+- Plusieurs images
+  `docker rmi <nom1> <nom2> <nom...>`
+- Toutes les images inutilisées
+  `docker image prune`
+- Toutes les images non utilisées
+  `docker image prune -a`
 
 > voir: https://stackoverflow.com/questions/45142528/what-is-a-dangling-image-and-what-is-an-unused-image
-> ○ Forcer la suppression d'une image
-> `docker rmi --force <nom>`
-> ○ Quel erreur est présente dans les commandes données
-> ci-dessus, donner la correction
+
+- Forcer la suppression d'une image
+  `docker rmi --force <nom>`
+- Quel erreur est présente dans les commandes données
+  ci-dessus, donner la correction
